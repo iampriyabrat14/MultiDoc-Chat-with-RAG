@@ -1,3 +1,8 @@
 myprojectenv
 MultiDoc_Chat_with_RAG.egg-info
 .env
+*pyc
+logs/
+__pycache__/
+data/
+test.py
