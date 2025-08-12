@@ -6,7 +6,7 @@ from langchain.output_parsers import OutputFixingParser
 from utils.model_loader import ModelLoader
 from logger.log_handler import CustomLogger
 from exception.exceptions import DocumentPortalException
-from prompt.prompt_library import PROMPT_REGISTRY
+from prompt.prompt_templates import PROMPT_REGISTRY
 from model.models import SummaryResponse,PromptType
 
 

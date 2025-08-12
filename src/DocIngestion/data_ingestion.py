@@ -16,11 +16,14 @@ from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, Te
 from langchain_community.vectorstores import FAISS
 
 from utils.model_loader import ModelLoader
-from logger.custom_logger import CustomLogger
-from exception.custom_exception import DocumentPortalException
+from logger.log_handler import CustomLogger
+from exception.exceptions import DocumentPortalException
+
 
 from utils.file_io import _session_id, save_uploaded_files
 from utils.document_ops import load_documents, concat_for_analysis, concat_for_comparison
+
+
 
 SUPPORTED_EXTENSIONS = {".pdf", ".docx", ".txt"}
 
