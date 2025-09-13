@@ -6,7 +6,7 @@
 #         config=yaml.safe_load(file)
 #     return config
 
-# utils/config_loader.py
+
 from pathlib import Path
 import os
 import yaml
